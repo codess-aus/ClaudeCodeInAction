@@ -11,6 +11,8 @@ The filename becomes your command name - so audit.md creates the /audit command.
 Example: Audit Command
 Here's a practical example of a custom command that audits project dependencies for vulnerabilities:
 
+![audit](https://github.com/codess-aus/ClaudeCodeInAction/blob/324445949d78cab64a61146e96ea1a9e3fa70eac/assets/cc%20custom%20commands.png)
+
 This audit command does three things:
 
 Runs npm audit to find vulnerable installed packages
@@ -22,6 +24,8 @@ Commands with Arguments
 Custom commands can accept arguments using the $ARGUMENTS placeholder. This makes them much more flexible and reusable.
 
 For example, a write_tests.md command might contain:
+
+![tests](https://github.com/codess-aus/ClaudeCodeInAction/blob/324445949d78cab64a61146e96ea1a9e3fa70eac/assets/cc%20tests.png)
 
 Write comprehensive tests for: $ARGUMENTS
 
