@@ -5,7 +5,7 @@ To understand hooks, let's first review the normal flow when you interact with C
 
 Hooks insert themselves into this process, allowing you to execute code just before or just after the tool execution happens.
 
-
+![hooks](https://github.com/codess-aus/ClaudeCodeInAction/blob/859853686625f9de9b0f7bf561a5ff1d70fe4de0/assets/cc%20pretool.png)
 
 There are two types of hooks:
 
@@ -23,10 +23,12 @@ You can write hooks by hand in these files or use the /hooks command inside Clau
 
 The configuration structure includes two main sections:
 
-
+![config](https://github.com/codess-aus/ClaudeCodeInAction/blob/859853686625f9de9b0f7bf561a5ff1d70fe4de0/assets/cc%20hook%20config.png)
 
 PreToolUse Hooks
 PreToolUse hooks run before a tool is executed. They include a matcher that specifies which tool types to target:
+
+![hookdef](https://github.com/codess-aus/ClaudeCodeInAction/blob/859853686625f9de9b0f7bf561a5ff1d70fe4de0/assets/cchookdef.png)
 
 "PreToolUse": [
   {
@@ -61,6 +63,8 @@ Since the tool call has already occurred, PostToolUse hooks can't block the oper
 
 Run follow-up operations (like formatting a file that was just edited)
 Provide additional feedback to Claude about the tool use
+
+![followup](https://github.com/codess-aus/ClaudeCodeInAction/blob/859853686625f9de9b0f7bf561a5ff1d70fe4de0/assets/ccfollowup.png)
 
 
 Practical A
