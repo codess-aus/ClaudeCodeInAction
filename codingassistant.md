@@ -5,7 +5,7 @@ A coding assistant is more than just a tool that writes code - it's a sophistica
 How Coding Assistants Work
 When you give a coding assistant a task, like fixing a bug based on an error message, it follows a process similar to how a human developer would approach the problem:
 
-[CA](https://github.com/codess-aus/ClaudeCodeInAction/blob/1a32a42775be341f63e93a80e5188ddf00965abc/assets/CA1.png)
+![CA](https://github.com/codess-aus/ClaudeCodeInAction/blob/1a32a42775be341f63e93a80e5188ddf00965abc/assets/CA1.png)
 
 Gather context - Understanding what the error refers to, which part of the codebase is affected, and what files are relevant
 Formulate a plan - Deciding how to solve the issue, such as changing code and running tests to verify the fix
@@ -20,7 +20,7 @@ So how do coding assistants solve this problem? They use a clever system called 
 How Tool Use Works
 When you send a request to a coding assistant, it automatically adds instructions to your message that teach the language model how to request actions. For example, it might add text like: "If you want to read a file, respond with 'ReadFile: name of file'"
 
-[Tool flow](https://github.com/codess-aus/ClaudeCodeInAction/blob/1a32a42775be341f63e93a80e5188ddf00965abc/assets/CA2.png)
+![Tool flow](https://github.com/codess-aus/ClaudeCodeInAction/blob/1a32a42775be341f63e93a80e5188ddf00965abc/assets/CA2.png)
 
 Here's the complete flow:
 
