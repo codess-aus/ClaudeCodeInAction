@@ -1,5 +1,7 @@
 When working with Claude on complex tasks, you'll often need to guide the conversation to keep it focused and productive. There are several techniques you can use to control the flow of your conversation and help Claude stay on track.
 
+![control](https://github.com/codess-aus/ClaudeCodeInAction/blob/b1e25a789bedfb6f74143096a9c8ba2642650209/assets/CC%20controlling.png)
+
 Interrupting Claude with Escape
 Sometimes Claude starts heading in the wrong direction or tries to tackle too much at once. You can press the Escape key to stop Claude mid-response, allowing you to redirect the conversation.
 
