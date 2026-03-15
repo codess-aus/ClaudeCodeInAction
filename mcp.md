@@ -2,6 +2,8 @@ You can extend Claude Code's capabilities by adding MCP (Model Context Protocol)
 
 One of the most popular MCP servers is Playwright, which gives Claude the ability to control a web browser. This opens up powerful possibilities for web development workflows.
 
+![mcp](https://github.com/codess-aus/ClaudeCodeInAction/blob/0e93e755f188e0ef1ec63523d1f1e5637e05c14d/assets/mcp.png)
+
 Installing the Playwright MCP Server
 To add the Playwright server to Claude Code, run this command in your terminal (not inside Claude Code):
 
